@@ -1,0 +1,299 @@
+body {
+    background-color: aliceblue;
+    margin: 0;}
+.cuerpo {
+    background-color: white;}
+.header {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 120px;}
+.logoimg {
+    width: 70px;
+    height: 90px;}
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;}
+.index {
+    text-decoration: none;
+    color: white;}
+.ingresa {
+    color: white;
+    padding-right: 150px;
+    padding-top: 10px;}
+.secciones {
+    background-color: lightgrey;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer {
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-bottom: 0;}
+#titulo {
+    background-color: white;
+    margin: 0;
+    padding-left: 850px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;}
+#img2 {
+    width: 1300px;}
+.descriptivo {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;}
+.normal {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    justify-content: center;
+    padding-left: 750px;
+}
+.gabinete {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 800px;}
+.fuente {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 800px;}
+#img3 {
+    width: 700px;}
+.video {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 800px;}
+#img4 {
+    width: 700px;}
+p {
+    font-family: Arial, Helvetica, sans-serif;}
+.nosotros {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 200px;
+    padding-top: 100px;}
+.equipo {
+    display: flex;
+    justify-content: space-between;}
+#img5 {
+    width:5000px;}
+.descimg5 {
+    text-align: right;
+    padding-left: 1200px;}
+.whatsapp {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+.instagram {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    background-color: black;
+    color: white;
+    font-size: larger
+}
+
+.discord {
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    background-color: black;
+    color: white;
+    font-size: larger
+}
+.tiktok {
+    position: absolute;
+    top: 50%;
+    left: 79%;
+    background-color: black;
+    color: white;
+    font-size: larger
+}
+.facebook {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    background-color: black;
+    color: white;
+    font-size: larger
+}
+.twitter {
+    position: absolute;
+    top: 85%;
+    left: 34%;
+    background-color: black;
+    color: white;
+    font-size: larger
+}
+.youtube {
+    position: absolute;
+    top: 85%;
+    left: 57%;
+    background-color: black;
+    color: white;
+    font-size: larger
+}
+.twitch {
+    position: absolute;
+    top: 85%;
+    left: 79%;
+    background-color: black;
+    color: white;
+    font-size: larger
+}
+.imgproce {
+    height: 900px;
+    width: 650px;}
+.imgvideo {
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 35%;}
+.imgfuente {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 53%;}
+.imgram {
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 77%;}
+.imgalma {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 47%;
+    left: 35%;}
+.imgmother {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 47%;
+    left: 53%;}
+.imgmonitor {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 47%;
+    left: 77%;}
+.imgperiferico {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 35%;}
+.imggabinete {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 53%;}   
+.imgnotebook {
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 70%;
+    left: 77%;}
+.descuento {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 900;}
+.categoria {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 900;}
+.subcategoria {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 30px;}
+li {
+    margin-top: 45px;}
+.img1col {
+    height: 200px;
+    width: 200px;
+    top: 20%;
+    left: 10%;
+    padding-top: 50px;
+    padding-left: 235px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+.img2col {
+    height: 200px;
+    width: 200px;
+    top: 20%;
+    left: 10%;
+    padding-top: 130px;
+    padding-left: 235px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.abrirmenu {
+    display: none;
+}
+@media screen and (max-width: 550px) {
+    .footer {
+        display: none;
+    }
+    .abrirmenu {
+        display: block;
+    }
+    .secciones {
+        display: none;
+    }
+    .ingresa {
+        display: none;
+    }
+    .textolink {
+        display: none;
+    }
+    .nosotros {
+        padding-left: 0;
+        text-align: center;
+    }
+    .imglore {
+        height: 250px;
+    }
+    .descimg5 {
+        display: none;
+    }
+    .lore {
+        position: absolute;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        padding-top: 350px;
+    }
+    }
+
+    
+
