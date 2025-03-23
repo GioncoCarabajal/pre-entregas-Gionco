@@ -1,51 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EstiloGamer</title> <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body class="cuerpo">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Componentes de Computadora</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="SCSS/style.scss" />
+  </head>
+  <body>
+    <!-- Encabezado -->
     <header>
-        <div class="header">
-            <div class="logo">
-                <img class="logoimg" src="imagenes/logotipo.png" alt="Acá va el logo de la pagina web">
-                <h2><a class="index" href="index.html">EstiloGamer</a></h2>
-            </div>
-            <h2 class="ingresa">INGRESA</h2>
-        </div>
-        <div class="secciones">
-            <a class="secciones" href="4HTML/COMPONENTES.html">COMPONENTES</a>
-            <a class="secciones" href="4HTML/NOSOTROS.html">NOSOTROS</a>
-            <a class="secciones" href="4HTML/ARMATUPC.html">ARMA TU PC</a>
-            <a class="secciones" href="4HTML/AYUDA.html">AYUDA</a></div>
-        </div>
+      <div class="logo">
+        <img src="imagenes/logotipo.png" alt="Logo de la tienda" width="100" />
+      </div>
+      <h1>Tienda de Componentes de Computadora</h1>
+
+      <!-- Menú de Navegación con Menú Hamburguesa -->
+      <nav>
+        <!-- Menú hamburguesa -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+        <label for="menu-toggle" class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="4HTML/nosotros.html">Acerca de</a></li>
+          <li><a href="4HTML/servicios.html">Servicios</a></li>
+          <li><a href="4HTML/productos.html">Productos</a></li>
+          <li><a href="4HTML/contactos.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <div class="body">
-        <h1 id="titulo">EstiloGamer</h1>
-    </div>
-        <div class="descriptivo">
-            <img id="img2" src="imagenes/oferta.png" alt="aca va imagen de pagina">
-            <p>descripcion de mundo de componentes</p>
+
+    <!-- Sección de Inicio -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h2>¡Explora nuestros componentes de computadora!</h2>
+        <p>
+          Encuentra los mejores productos tecnológicos para tu PC. Desde
+          procesadores hasta tarjetas gráficas, todo en un solo lugar. Ya sea
+          que estés buscando una actualización de tu sistema actual o
+          construyendo una nueva máquina desde cero, tenemos todo lo que
+          necesitas para llevar tu PC al siguiente nivel.
+        </p>
+        <a href="#about" class="btn">Saber más</a>
+      </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="about">
+      <h2>Acerca de Nosotros</h2>
+      <div class="about-content">
+        <img
+          src="imagenes/group-portrait-happy-multiethnic-united-260nw-2310800821.png"
+          alt="Equipo de trabajo"
+          class="about-image"
+        />
+        <p>
+          Somos una tienda especializada en la venta de componentes de
+          computadora. Nuestra misión es ofrecer productos de alta calidad y
+          rendimiento, junto con un excelente servicio al cliente. A lo largo de
+          los años, hemos ganado la confianza de miles de clientes, tanto
+          individuales como empresas, que buscan componentes confiables y de
+          alto rendimiento para sus necesidades tecnológicas.
+        </p>
+        <p>
+          Nos enorgullece trabajar con los mejores proveedores de la industria
+          para ofrecer productos como procesadores, tarjetas gráficas, memorias
+          RAM, discos duros, placas base y mucho más. Ya sea que estés armando
+          una PC para juegos, una estación de trabajo o un servidor empresarial,
+          tenemos todo lo necesario para hacer que tu proyecto sea un éxito.
+        </p>
+        <p>
+          Además, nuestro equipo de expertos está siempre disponible para
+          brindarte asesoramiento técnico y ayudarte a elegir los componentes
+          que mejor se adapten a tus necesidades. Ya sea que necesites ayuda con
+          la compatibilidad o recomendaciones para optimizar tu sistema, estamos
+          aquí para ti.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="portfolio">
+      <h2>Productos Destacados</h2>
+      <div class="portfolio-gallery">
+        <div class="portfolio-item">
+          <img
+            src="imagenes/placa-de-video-geforce-msi-rtx-4070-super-12gb-ventus-2x-oc.png"
+            alt="Tarjeta Gráfica"
+          />
+          <p>
+            La tarjeta gráfica o tarjeta de vídeo de un componente que viene
+            integrado en la placa base del PC o se instala a parte para ampliar
+            sus capacidades. Concretamente, esta tarjeta está dedicada al
+            procesamiento de datos relacionados con el vídeo y las imágenes que
+            se están reproduciendo en el ordenador.
+          </p>
         </div>
-        <h3 class="normal">Conocé nuestros <strong>productos descatacados</strong></h3>
-        <div class="gabinete">
-            <img src="imagenes/QQ视频20220122182407.mp4.png" alt="">
-            <p>aca va la descripcion del gabinete</p>
+        <div class="portfolio-item">
+          <img src="imagenes/i911900k.png" alt="Procesador" />
+          <p>
+            El procesador de una PC, también conocido como CPU o
+            microprocesador, es el componente que se encarga de procesar las
+            instrucciones y datos de los programas. Es el cerebro de la
+            computadora y se encuentra en la placa base.
+          </p>
         </div>
-        <div class="fuente">
-            <img id="img3" src="imagenes/220-GT-1300-X1.png" alt="">
-            <p>aca va la descripcion de la fuente</p>
+        <div class="portfolio-item">
+          <img src="imagenes/ramcorsair.png" alt="Memoria RAM" />
+          <p>
+            La memoria RAM (Random Access Memory) es un componente de la
+            computadora que almacena datos temporalmente mientras el dispositivo
+            está en funcionamiento. Es un tipo de memoria volátil, es decir, que
+            pierde los datos cuando se apaga la computadora o se cierra una
+            aplicación.
+          </p>
         </div>
-        <div class="video">
-            <img id="img4" src="imagenes/placa-de-video-geforce-msi-rtx-4070-super-12gb-ventus-2x-oc.png" alt="placa de video">
-            <p>aca va la descripcion de la placa de video</p>
-        </div>
-    <footer class="footer">
-        <p class="footer">Hasta 12 cuotas sin interes</p>
-        <p class="footer">Envios a todo el país</p>
-        <p class="footer">Garantías y derechos asegurados</p>
+      </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonials">
+      <h2>Testimonios</h2>
+      <div class="testimonial">
+        <p>
+          "Compré todos los componentes para mi PC de gaming y todo llegó en
+          perfecto estado. El asesoramiento fue excelente. Me ayudaron a elegir
+          la configuración perfecta para juegos en 4K y, después de la
+          instalación, el rendimiento fue increíble. ¡Totalmente recomendado!"
+        </p>
+        <h4>Juan Pérez, Gamer</h4>
+      </div>
+      <div class="testimonial">
+        <p>
+          "La calidad de los productos es impresionante. Estoy muy contento con
+          mi compra, y el soporte técnico me ayudó a configurar todo
+          rápidamente. Ahora mi PC funciona como nunca antes, y todo fue muy
+          fácil de instalar gracias a su ayuda."
+        </p>
+        <h4>Ana Gómez, Diseñadora Gráfica</h4>
+      </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact">
+      <h2>Contacto</h2>
+      <form action="/enviar" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>
+        &copy; 2025 Tienda de Componentes de Computadora. Todos los derechos
+        reservados.
+      </p>
+      <p>
+        <a href="https://facebook.com" target="_blank">Facebook</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a> |
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </p>
     </footer>
-    
-</body>
+  </body>
 </html>
