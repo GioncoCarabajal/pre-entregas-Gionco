@@ -3,35 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vistazo general del contenido del sitio y sus secciones">
+    <meta name="keywords" content="Inicio, Acerca de, Servicios, Productos, Contacto, Testimonios">
     <title>Tienda de Componentes de Computadora</title>
-    <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="SCSS/style.scss" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./imagenes/android-chrome-192x192.png" type="image/x-icon">
   </head>
   <body>
     <!-- Encabezado -->
     <header>
       <div class="logo">
-        <img src="imagenes/logotipo.png" alt="Logo de la tienda" width="100" />
+        <img src="./imagenes/logotipo.png" alt="Logo de la tienda" width="100" />
       </div>
       <h1>Tienda de Componentes de Computadora</h1>
-
-      <!-- Menú de Navegación con Menú Hamburguesa -->
       <nav>
-        <!-- Menú hamburguesa -->
-        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./views/nosotros.html">Acerca de</a></li>
+          <li><a href="./views/servicios.html">Servicios</a></li>
+          <li><a href="./views/productos.html">Productos</a></li>
+          <li><a href="./views/contactos.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="nav2">
+        <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-toggle">
           <span></span>
           <span></span>
           <span></span>
         </label>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="4HTML/nosotros.html">Acerca de</a></li>
-          <li><a href="4HTML/servicios.html">Servicios</a></li>
-          <li><a href="4HTML/productos.html">Productos</a></li>
-          <li><a href="4HTML/contactos.html">Contacto</a></li>
+        <ul class="mobile-menu">
+          <li><a href="#about">Acerca</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Productos</a></li>
+          <li><a href="#testimonials">Testimonios</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
-      </nav>
+      </div>
+      
     </header>
 
     <!-- Sección de Inicio -->
@@ -54,7 +63,7 @@
       <h2>Acerca de Nosotros</h2>
       <div class="about-content">
         <img
-          src="imagenes/nosotros.png"
+          src="./imagenes/nosotros.png"
           alt="Equipo de trabajo"
           class="about-image"
         />
@@ -89,7 +98,7 @@
       <div class="portfolio-gallery">
         <div class="portfolio-item">
           <img
-            src="imagenes/rtx3080.png"
+            src="./imagenes/rtx3080.png"
             alt="Tarjeta Gráfica"
           />
           <p>
@@ -101,7 +110,7 @@
           </p>
         </div>
         <div class="portfolio-item">
-          <img src="imagenes/i911900k.png" alt="Procesador" />
+          <img src="./imagenes/i911900k.png" alt="Procesador" />
           <p>
             El procesador de una PC, también conocido como CPU o
             microprocesador, es el componente que se encarga de procesar las
@@ -110,7 +119,7 @@
           </p>
         </div>
         <div class="portfolio-item">
-          <img src="imagenes/ramcorsair.png" alt="Memoria RAM" />
+          <img src="./imagenes/ramcorsair.png" alt="Memoria RAM" />
           <p>
             La memoria RAM (Random Access Memory) es un componente de la
             computadora que almacena datos temporalmente mientras el dispositivo
@@ -176,3 +185,5 @@
     </footer>
   </body>
 </html>
+
+
